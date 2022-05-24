@@ -10,6 +10,9 @@ spec:
   test:
     enable: false
   values:
+    ui:
+        color: "#d12ea7"
+        message: "Hello from podinfo"
     ingress:
       hosts:
         - host: podinfo.staging
